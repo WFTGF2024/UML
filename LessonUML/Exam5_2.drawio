@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="第 1 页" id="FAm-PfJUDHdVmgYPFbfD">
-    <mxGraphModel>
+    <mxGraphModel dx="620" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rmY_86fdbUm7tdanxYuO-1" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="83" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rmY_86fdbUm7tdanxYuO-5" value="管理商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="199" width="120" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="rmY_86fdbUm7tdanxYuO-6" value="管理订单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rmY_86fdbUm7tdanxYuO-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="rmY_86fdbUm7tdanxYuO-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="150" as="sourcePoint" />
+            <mxPoint x="70" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rmY_86fdbUm7tdanxYuO-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=-0.233;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rmY_86fdbUm7tdanxYuO-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="150" as="sourcePoint" />
+            <mxPoint x="250" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
