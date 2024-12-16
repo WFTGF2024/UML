@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="25.0.3">
   <diagram name="第 1 页" id="9aU37iixjl-0rO1E9T7V">
-    <mxGraphModel dx="844" dy="1836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="912" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,13 +40,13 @@
         <mxCell id="UI6-dDAzTKjLKQ1iZGnM-107" value="HotTopics" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-1">
           <mxGeometry x="250" y="130" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-108" value="click(/latest-topics,POST)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-107">
+        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-108" value="click(/hot-topics,POST)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-107">
           <mxGeometry y="30" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UI6-dDAzTKjLKQ1iZGnM-124" value="LatestTopics" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-1">
           <mxGeometry x="250" y="230" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-125" value="click(/hot-topics,POST)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-124">
+        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-125" value="click(/latest-topics,POST)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-124">
           <mxGeometry y="30" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UI6-dDAzTKjLKQ1iZGnM-11" value="topic1.html" style="swimlane;startSize=20;" vertex="1" parent="1">
@@ -96,28 +96,28 @@
         <mxCell id="UI6-dDAzTKjLKQ1iZGnM-23" value="/edit-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
           <mxGeometry x="120" y="30" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-24" value="/login" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
+        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-24" value="/latest-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
           <mxGeometry x="10" y="60" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-25" value="/forgot-password" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
+        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-25" value="/hot-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
           <mxGeometry x="120" y="60" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-26" value="/submit-feedback" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
+        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-26" value="/delete-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
           <mxGeometry x="10" y="90" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-153" value="/search-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
+        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-153" value="/like-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
           <mxGeometry x="10" y="120" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-152" value="/search-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
+        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-152" value="/create-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
           <mxGeometry x="120" y="90" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-151" value="/search-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
+        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-151" value="/get-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
           <mxGeometry x="120" y="120" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-150" value="/search-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
+        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-150" value="/comment-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
           <mxGeometry x="120" y="155" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-154" value="/search-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
+        <mxCell id="UI6-dDAzTKjLKQ1iZGnM-154" value="/unlike-topic" style="whiteSpace=wrap;html=1;" vertex="1" parent="UI6-dDAzTKjLKQ1iZGnM-21">
           <mxGeometry x="10" y="155" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UI6-dDAzTKjLKQ1iZGnM-27" value="Mysql" style="swimlane;startSize=20;" vertex="1" parent="1">
