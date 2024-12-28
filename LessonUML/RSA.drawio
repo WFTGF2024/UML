@@ -56,7 +56,19 @@
           <mxGeometry x="610" y="360" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7vSC1R2nWwlc2iJXXi78-15" value="x3=x1mod(x2)=1=173-4x43" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="420" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7vSC1R2nWwlc2iJXXi78-17" value="x2不为1,按上述规律继续取模" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="390" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7vSC1R2nWwlc2iJXXi78-18" value="x3为1，停止迭代" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="450" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7vSC1R2nWwlc2iJXXi78-19" value="173-4x43=173-4x(216-173)=5x173-4x216" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="480" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7vSC1R2nWwlc2iJXXi78-20" value="edmod(φ(n))=1，对照得e=5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="510" width="250" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
